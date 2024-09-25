@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ @font-face {
+    font-family: 'Neue Machina';
+    src: url(/src/assets/font/neue-machina-font-family/NeueMachina-Regular.ttf);
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .neue_font {
+    font-family: 'neue machina', sans-serif;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container_1::after{
+   background-image: url("./assets/images/webp/timeline-left-icon.webp") !important;
+      background-position: center;
+      background-size: cover;
 }
+.container_2::after {
+   background-image: url("./assets/images/webp/timeline-right-icon.webp") !important;
+   background-position: center;
+   background-size: cover;
+}
+.italic_style{
+   font-style: italic;
+}
+ @media (min-width:470px) and (max-width:640px) {
+    .bottom_45 {
+       bottom: -45px;
+    }
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ @media(max-width:767.98px) {
+.container_1::after {
+      background-image: url("./assets/images/webp/timeline-right-icon.webp") !important;
+   }
+      .container_2::after {
+         background-image: url("./assets/images/webp/timeline-right-icon.webp") !important;
+      }
+ }
+ 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
