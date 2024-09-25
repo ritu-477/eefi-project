@@ -6,13 +6,13 @@ import smallImg from '../assets/images/webp/small-iamge.webp'
 
 const GameTheory = () => {
   return (
-    <div className='bg-game-bg lg:pt-16 lg:pb-[83px] sm:py-14 py-12'>
+    <div className='bg-game-bg lg:pt-16 lg:pb-[83px] sm:py-14 pt-12 pb-[200px]'>  
       <div className='container'>
         <div className='flex items-center gap-10 lg:flex-row flex-col justify-between'>
           <div className='lg:max-w-[572px] w-full flex flex-col items-start'>
-            <h2 className='neue_font font-extrabold lg:text-custom-xl lg:leading-custom-xl sm:text-3xl text-[28px] leading-[33px] md:text-4xl text-white pb-1'>(E,E) Game Theory: An UPGRADE from (3,3)</h2>
+            <h2 className='neue_ultra font-extrabold lg:text-custom-xl lg:leading-custom-xl sm:text-3xl text-[28px] leading-[33px] md:text-4xl text-white pb-1'>(E,E) Game Theory: An UPGRADE from (3,3)</h2>
             <p className='font-raleway text-white italic_style sm:pt-8 pt-4 lg:pt-10 font-normal text text-sm sm:text-base sm:leading-[25px] lg:max-w-[515px]'>Remember (3,3) At Its Core Was About Social Coordination. Or, People Working Together To Achieve A Common Outcome Or Goal. (E,E) Is The Same. But With (E,E) People Are Working Together Not To Grow A Robust Treasury That Would Back A Decentralized Stablecoin But Instead To Establish The First Ever decentralized amplified yield token… $EEFI. A Token that can produce yield in any market condition.</p>
-            <p className='font-raleway text-white italic_style pt-4 font-normal text text-sm sm:text-base sm:leading-[25px] lg:max-w-[476px]'>To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
+            <p className='font-raleway text-white italic_style pt-2 font-normal text text-sm sm:text-base sm:leading-[25px] lg:max-w-[476px]'>To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
           </div>
           <div className='max-w-[530px] w-full mt-7 lg:mt-0 relative'>
             <div className='relative z-10'>
@@ -69,7 +69,7 @@ const GameTheory = () => {
               <div className='mt-9 flex gap-3 sm:gap-6 relative z-[2] items-start w-full justify-center'>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon className='sm:w-[29px] sm:h-[28px] w-[24px] h-[23px]' iconName="furnace" />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px]'>EEFI Furnace </p>
+                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px] text-center'>EEFI Furnace </p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center max-w-[123px] mt-1'>Buy + Burn EEFI</p>
                 </div>
               </div>

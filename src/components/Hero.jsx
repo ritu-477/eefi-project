@@ -6,7 +6,7 @@ import dotsImg from '../assets/images/svg/dots-svg.svg'
 const Hero = () => {
   return (
     <div className='bg-hero-layer relative bg-cover bg-center bg-no-repeat' id='about'>
-      <img src={blueVector} alt="blue-vector" className='xl:max-w-[1170px] 2xl:max-w-[1075px] lg:max-w-[975px] sm:h-[700px] lg:h-[750px] h-[550px] absolute top-[-80px] left-0 xl:h-[836px] max-lg:object-cover' />
+      <img src={blueVector} alt="blue-vector" className='xl:max-w-[1170px] 2xl:max-w-[1164px] lg:max-w-[975px] sm:h-[700px] lg:h-[750px] h-[600px] absolute top-[-80px] left-0 xl:h-[836px] max-lg:object-cover' />
       <div className='absolute right-[36px] top-0 lg:flex hidden'>
         <img src={dotsImg} alt="dots-image" />
       </div>
@@ -19,7 +19,7 @@ const Hero = () => {
             <p className='text-base font-normal font-raleway leading-6 text-white max-w-[542px] py-3'>An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions</p>
             <a href="" className='text-[18px] leading-[21px] border-b border-b-white text-white font-bold'>Audited by Omniscia</a>
           </div>
-          <div className='flex justify-center relative pt-6 xl:translate-x-[20px] xl:translate-y-[-18px]'>
+          <div className='flex justify-center relative pt-6 xl:translate-x-[25px] xl:translate-y-[-30px]'>
             <img src={heroImg} alt="hero-image" className='xl:max-w-[668px] sm:max-w-[536px] max-w-[335px] relative -z-10' />
           </div>
        </div>

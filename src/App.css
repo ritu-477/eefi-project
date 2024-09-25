@@ -1,11 +1,21 @@
 
+*{
+   transition: 300ms linear all !important;
+}
  @font-face {
     font-family: 'Neue Machina';
     src: url(/src/assets/font/neue-machina-font-family/NeueMachina-Regular.ttf);
  }
+  @font-face {
+     font-family: 'Machina';
+     src: url(/src/assets/font/neue-machina-font-family/NeueMachina-Ultrabold.otf);
+  }
 
  .neue_font {
     font-family: 'neue machina', sans-serif;
+ }
+ .neue_ultra {
+    font-family: 'machina', sans-serif;
  }
 
 .container_1::after{

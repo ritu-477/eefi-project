@@ -1,6 +1,6 @@
 import React from 'react'
 import bullImg from '../assets/images/webp/bull-image.webp'
-import gorillaImg from '../assets/images/webp/gorilla-image.webp'
+import bearImg from '../assets/images/webp/bear-image.webp'
 import menImg from '../assets/images/webp/men-image.webp'
 import bottomLayer from '../assets/images/webp/layer-amplify.webp'
 
@@ -18,10 +18,10 @@ const Amplify = () => {
         <div className='absolute top-[54%] z-10 left-[24%] lg:flex hidden'>
           <p className='text-center font-normal leading-[22px] text-sm font-raleway text-white max-w-[554px] drop-shadow-[2px_2px_2px_black]'>We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
         </div>
-        <div className='flex justify-center relative items-center z-[1] max-sm:pt-8'>
-          <img src={bullImg} className='xl:max-w-[649px] lg:max-w-[600px] md:max-w-[380px] sm:max-w-[300px] max-w-[200px] xl:h-[676px] lg:h-[610px] md:h-[440px] sm:h-[320px] h-[160px] pointer-events-none' alt="bull-image" />
-          <img src={gorillaImg} alt="gorilla-image" className='xl:max-w-[632px] lg:max-w-[400px] md:max-w-[300px] sm:max-w-[200px] max-w-[125px] xl:h-[630px] lg:h-[540px] md:h-[400px] sm:h-[300px] h-[150px] md:mt-12 sm:mt-8 mt-4 ms-7 lg:mt-16 xl:-ms-44 w-full pointer-events-none' />
-          <img src={menImg} className='absolute bottom-[-20px] sm:[-40px] lg:bottom-[-18px] xl:bottom-0 right-[42%] sm:right-[40%] md:right-[46%] lg:max-w-[100px] sm:max-w-[80px] max-w-[60px] w-full' alt="men" />
+        <div className='flex justify-center relative items-center z-[1] max-sm:pt-8 mt-[-10px]'>
+          <img src={bullImg} className='xl:max-w-[649px] lg:max-w-[600px] md:max-w-[380px] sm:max-w-[300px] max-w-[200px] xl:h-[676px] lg:h-[610px] md:h-[440px] sm:h-[320px] h-[180px] pointer-events-none' alt="bull-image" />
+          <img src={bearImg} alt="bear-image" className='xl:max-w-[549px] lg:max-w-[450px] md:max-w-[320px] sm:max-w-[200px] max-w-[160px] xl:h-[656px] lg:h-[585px] md:h-[415px] sm:h-[300px] h-[165px] md:mt-12 sm:mt-8 mt-4 lg:mt-16 xl:-ms-28 w-full pointer-events-none' />
+          <img src={menImg} className='absolute bottom-[-20px] sm:[-40px] lg:bottom-[-18px] xl:bottom-[30px] right-[42%] sm:right-[40%] md:right-[46%] lg:max-w-[100px] sm:max-w-[80px] max-w-[60px] w-full' alt="men" />
         </div>
       </div>
       <div>

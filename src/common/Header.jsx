@@ -38,7 +38,7 @@ const Header = () => {
         <div className="md:h-20 sm:h-16 h-14 flex w-full mx-auto items-center bg-transparent mt-4 py-3 relative z-20">
             <div className='container'>
                 <div className='flex justify-between items-center'>
-                    <img src={navLogo} alt="nav-logo" className='md:max-w-[68px] md:h-[75px] max-w-[50px] h-12' />
+                    <a href=""><img src={navLogo} alt="nav-logo" className='md:max-w-[68px] md:h-[75px] max-w-[50px] h-12' /></a>
                     <div
                         onClick={toggleMenu}
                         className='menuIcon relative max-sm:w-[30px] max-sm:h-[24px] max-lg:w-[38px] max-lg:h-[28px] z-[15] max-lg:flex max-lg:justify-between max-lg:flex-col max-lg:cursor-pointer transition ease-linear duration-300 lg:hidden'
@@ -67,7 +67,7 @@ const Header = () => {
                             <li className="relative">
                                 <a
                                     onClick={toggleDropdown}
-                                    className='font-normal relative lg:text-base text-lg leading-5 2xl:text-vibrantBlue text-white flex items-center space-x-1 cursor-pointer'
+                                    className='font-normal relative lg:text-base text-lg leading-5 2xl:text-vibrantBlue text-white flex items-center space-x-1 cursor-pointer after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300'
                                     href="#"
                                 >
                                     More
@@ -88,12 +88,12 @@ const Header = () => {
                                     </span>
                                     {isDropdownOpen && (
                                         <span className="absolute left-0 top-3 mt-2 w-32 bg-white rounded-lg shadow-lg z-30">
-                                            <a rel="service" href="/" className="block px-2 py-1 text-sm 2xl:text-blue text-gray-700 hover:bg-mediumBlue hover:text-white rounded-lg">
+                                            <span className="block px-2 py-1 text-sm 2xl:text-blue text-gray-700 hover:bg-mediumBlue hover:text-vibrantBlue rounded-lg">
                                                 Service 1
-                                            </a>
-                                            <a rel="service" href="/" className="block px-2 py-1 text-sm 2xl:text-blue text-gray-700 hover:bg-mediumBlue hover:text-white rounded-lg">
+                                            </span>
+                                            <span className="block px-2 py-1 text-sm 2xl:text-blue text-gray-700 hover:bg-mediumBlue hover:text-vibrantBlue rounded-lg">
                                                 Service 2
-                                            </a>
+                                            </span>
                                         </span>
                                     )}
                                 </a>
