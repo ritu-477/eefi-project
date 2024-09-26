@@ -6,7 +6,7 @@ const Roadmap = () => {
   return (
     <div className='bg-roadmap-bg lg:pb-[142px] md:pb-[100px] sm:pb-[80px] pb-12'>
       <div className='flex justify-center lg:pt-32 md:pt-24 sm:pt-16 pt-12 items-center'>
-        <h2 className='neue_font font-bold text-center lg:text-custom-xl lg:leading-custom-xl sm:text-3xl text-xl md:text-4xl text-white'>Roadmap</h2>
+        <h2 className='neue_font font-bold text-center lg:text-custom-xl lg:leading-custom-xl sm:text-3xl text-[28px] leading-[33px] md:text-4xl text-white'>Roadmap</h2>
       </div>
       <div className='container'>
         <div className='mx-auto max-w-[880.76px] lg:mt-[117px] md:mt-24 sm:mt-16 mt-10 w-full relative after:absolute after:w-[2px] after:h-[100%] after:bg-skylineBlue after:top-[1px] after:bottom-0 after:left-[50%] max-md:after:left-0 flex flex-col max-md:gap-10 md:gap-0'>

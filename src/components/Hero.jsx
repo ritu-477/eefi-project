@@ -6,7 +6,7 @@ import dotsImg from '../assets/images/svg/dots-svg.svg'
 const Hero = () => {
   return (
     <div className='bg-hero-layer relative bg-cover bg-center bg-no-repeat' id='about'>
-      <img src={blueVector} alt="blue-vector" className='xl:max-w-[1170px] 2xl:max-w-[1164px] lg:max-w-[975px] sm:h-[700px] lg:h-[750px] h-[600px] absolute top-[-80px] left-0 xl:h-[836px] max-lg:object-cover 2xl:hidden block' />
+      <img src={blueVector} alt="blue-vector" className='xl:max-w-[1170px] 2xl:max-w-[1164px] lg:max-w-[975px] sm:h-[700px] lg:h-[900px] lg:mb-[100px] xl:mb-0 h-[600px] absolute top-[-80px] left-0 xl:h-[836px] max-lg:object-cover 2xl:hidden block' />
       <div className='absolute right-[36px] top-0 lg:flex hidden'>
         <img src={dotsImg} alt="dots-image" className='pointer-events-none' />
       </div>

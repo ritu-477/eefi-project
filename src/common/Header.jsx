@@ -67,7 +67,7 @@ const Header = () => {
                             <li className="relative">
                                 <a
                                     onClick={toggleDropdown}
-                                    className='font-normal relative lg:text-base text-lg leading-5 2xl:text-vibrantBlue text-white flex items-center space-x-1 cursor-pointer after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300'
+                                    className='font-normal gap-1 relative lg:text-base text-lg leading-5 2xl:text-vibrantBlue text-white flex items-center space-x-1 cursor-pointer after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300'
                                     href="#"
                                 >
                                     More
