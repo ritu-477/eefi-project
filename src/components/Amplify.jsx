@@ -6,7 +6,7 @@ import bottomLayer from '../assets/images/webp/layer-amplify.webp'
 
 const Amplify = () => {
   return (
-    <div className='bg-amplify-bg bg-cover bg-no-repeat bg-center relative lg:pt-5 xl:h-[850px] lg:h-[800px] md:h-[710px] sm:h-[540px] h-[435px]' id='tokenomics'>
+    <div className='bg-amplify-bg bg-cover bg-no-repeat bg-center relative lg:pt-5 xl:h-[850px] lg:h-[800px] md:h-[710px] sm:h-[540px] h-[435px] xl:mt-[-50px]' id='tokenomics'>
       <div className='bg-black py-12 2xl:flex hidden w-full absolute top-0 left-0'></div>
       <div className='container relative'>
       <div className='flex justify-center lg:pt-0 md:pt-5 sm:pt-3 pt-2 2xl:relative 2xl:z-10'>
