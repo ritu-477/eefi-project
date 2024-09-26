@@ -25,51 +25,51 @@ const GameTheory = () => {
               <div className='sm:mt-[76px] mt-16 flex gap-3 sm:gap-6 relative z-[2] items-start w-full justify-center'>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="bond" className='sm:w-[28px] sm:h-[27px] w-[24px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>EEFI Bonds</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>EEFI Bonds</p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center max-w-[123px] mt-1'> Purchase. Lock up. Get Discount</p>
                 </div>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="lock" className='sm:w-[29px] sm:h-[27px] w-[23px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>Vault</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>Vault</p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center mt-1'> Deposit + Earn</p>
                 </div>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="farming" className='sm:w-[28px] sm:h-[29px] w-[24px] h-[24px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>LP Positions</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[25px] text-sm leading-[22px] sm:mt-2 mt-1'>LP Positions</p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center max-w-[123px] mt-1 '> Yield Farming</p>
                 </div>
               </div>
               <div className='mt-9 flex gap-3 sm:gap-6 relative z-[2] items-start w-full justify-center'>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="funding" className='sm:w-[28px] sm:h-[28px] w-[24px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 max-w-[144px] text-center'>Funding raised acquires Growth assets</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 max-w-[144px] text-center'>Funding raised acquires Growth assets</p>
                 </div>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="treasury" className='sm:w-[28px] sm:h-[28px] w-[24px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 max-w-[131px] text-center'>OHM Treasury Strategy </p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 max-w-[131px] text-center'>OHM Treasury Strategy </p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center mt-1'> Deposit + Earn</p>
                 </div>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="market" className='sm:w-[28px] sm:h-[28px] w-[24px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px]'>Markets</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px]'>Markets</p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center max-w-[123px] mt-1'> Trade + Arb (Fees)</p>
                 </div>
               </div>
               <div className='mt-9 flex gap-3 sm:gap-6 relative z-[2] items-start w-full justify-center'>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="growth" className='sm:w-[29px] sm:h-[29px] w-[24px] h-[24px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 text-center max-w-[70px] sm:max-w-[106px]'>Yield From Growth Assets</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 text-center max-w-[70px] sm:max-w-[106px]'>Yield From Growth Assets</p>
                 </div>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon iconName="revenue" className='sm:w-[28px] sm:h-[28px] w-[24px] h-[23px]' />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 text-center max-w-[82px] sm:max-w-[127px]'>Fees. Revenue. Yield to Treasury</p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[19px] text-sm sm:mt-2 mt-1 leading-4 text-center max-w-[82px] sm:max-w-[127px]'>Fees. Revenue. Yield to Treasury</p>
                 </div>
                 
               </div>
               <div className='mt-9 flex gap-3 sm:gap-6 relative z-[2] items-start w-full justify-center'>
                 <div className='sm:max-w-[160px] max-w-[103px] h-full custom-xl w-full px-2 pb-2 sm:min-h-[130px] min-h-[138px] bg-white pt-[18px] rounded-md flex flex-col items-center'>
                   <Icon className='sm:w-[29px] sm:h-[28px] w-[24px] h-[23px]' iconName="furnace" />
-                  <p className='neue_font font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px] text-center'>EEFI Furnace </p>
+                  <p className='neue_ultra font-extrabold sm:text-base sm:leading-[25px] text-sm sm:mt-2 mt-1 leading-[22px] text-center'>EEFI Furnace </p>
                   <p className='font-normal font-raleway text-sm leading-4 text-center max-w-[123px] mt-1'>Buy + Burn EEFI</p>
                 </div>
               </div>
