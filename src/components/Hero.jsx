@@ -11,7 +11,7 @@ const Hero = () => {
         <img src={dotsImg} alt="dots-image" className='pointer-events-none' />
       </div>
       <div className='relative z-10 container'>
-        <img src={blueVector} alt="blue-layer" className='absolute top-[-80px] 2xl:w-full 2xl:h-[900px] left-[-370px] 2xl:block hidden -z-10' />
+        <img src={blueVector} alt="blue-layer" className='absolute max-w-[1170px] top-[-80px] 2xl:w-full 2xl:h-[900px] left-[-370px] 2xl:block hidden -z-10' />
         <div className='lg:flex lg:flex-row flex-col -mt-10'>
           <div className='lg:pt-40 sm:pt-28 pt-20'>
             <h1 className='font-medium sm:text-6xl sm:leading-[75px] text-4xl leading-[46px] max-sm:max-w-[330px] lg:text-custom-2xl lg:leading-[95.74px] text-white lg:max-w-[463px] neue_font'>BUILDING
