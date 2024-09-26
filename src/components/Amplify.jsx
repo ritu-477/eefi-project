@@ -20,8 +20,8 @@ const Amplify = () => {
         </div>
         <div className='flex justify-center relative items-center z-[1] max-sm:pt-8 mt-[-10px]'>
           <img src={bullImg} className='xl:max-w-[649px] lg:max-w-[600px] md:max-w-[380px] sm:max-w-[300px] max-w-[200px] xl:h-[676px] lg:h-[610px] md:h-[440px] sm:h-[320px] h-[180px] pointer-events-none' alt="bull-image" />
-          <img src={bearImg} alt="bear-image" className='xl:max-w-[549px] lg:max-w-[450px] md:max-w-[364px] sm:max-w-[200px] max-w-[160px] xl:h-[656px] lg:h-[585px] md:h-[452px] sm:h-[300px] h-[165px] md:mt-12 sm:mt-8 mt-4 lg:mt-16 xl:-ms-28 w-full pointer-events-none' />
-          <img src={menImg} className='absolute bottom-[-20px] sm:[-40px] md:bottom-[10px] lg:bottom-[-18px] xl:bottom-[30px] right-[42%] sm:right-[40%] md:right-[46%] lg:max-w-[100px] sm:max-w-[80px] max-w-[60px] w-full' alt="men" />
+          <img src={bearImg} alt="bear-image" className='xl:max-w-[549px] lg:max-w-[480px] md:max-w-[364px] sm:max-w-[200px] max-w-[160px] xl:h-[656px] lg:h-[630px] md:h-[452px] sm:h-[300px] h-[165px] md:mt-12 sm:mt-8 mt-4 lg:mt-16 xl:-ms-28 w-full pointer-events-none' />
+          <img src={menImg} className='absolute bottom-[-20px] sm:[-40px] md:bottom-[10px] lg:bottom-[15px] xl:bottom-[30px] right-[42%] sm:right-[40%] md:right-[46%] lg:max-w-[100px] sm:max-w-[80px] max-w-[60px] w-full' alt="men" />
         </div>
       </div>
       <div>
