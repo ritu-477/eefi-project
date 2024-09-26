@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='bg-hero-layer relative bg-cover bg-center bg-no-repeat' id='about'>
       <img src={blueVector} alt="blue-vector" className='xl:max-w-[1170px] 2xl:max-w-[1164px] lg:max-w-[975px] sm:h-[700px] lg:h-[750px] h-[600px] absolute top-[-80px] left-0 xl:h-[836px] max-lg:object-cover' />
       <div className='absolute right-[36px] top-0 lg:flex hidden'>
-        <img src={dotsImg} alt="dots-image" />
+        <img src={dotsImg} alt="dots-image" className='pointer-events-none' />
       </div>
       <div className='relative z-10 container'>
         <div className='lg:flex lg:flex-row flex-col -mt-10'>
@@ -20,7 +20,7 @@ const Hero = () => {
             <a href="" className='text-[18px] leading-[21px] border-b border-b-white text-white font-bold'>Audited by Omniscia</a>
           </div>
           <div className='flex justify-center relative pt-6 xl:translate-x-[25px] xl:translate-y-[-30px]'>
-            <img src={heroImg} alt="hero-image" className='xl:max-w-[668px] sm:max-w-[536px] max-w-[335px] relative -z-10' />
+            <img src={heroImg} alt="hero-image" className='xl:max-w-[668px] sm:max-w-[536px] max-w-[335px] relative -z-10 pointer-events-none' />
           </div>
        </div>
         </div>
